@@ -38,6 +38,20 @@ body{
   line-height: 70px;
   margin-bottom: 50px;
 }
+@media (max-width: 760px){
+  .cursive-text,
+  .bold-title{
+    text-align: center ;
+  }
+  .bold-title{
+    font-size: 40px;
+  }
+}
+@media (max-width: 575px){
+  .bold-title{
+    font-size: 25px !important;
+  }
+}
 .small-title{
   font-weight: 700;
   font-size: 20px;
@@ -109,5 +123,8 @@ a{
 }
 a:hover{
   color: var(--sea);
+}
+br{
+  display: none;
 }
 

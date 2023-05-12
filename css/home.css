@@ -52,10 +52,10 @@
 
 .top-dest-item{
     height: 350px;
+    max-width: 250px;
     border-radius: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    inset: 0;
+    margin: auto;
 }
 
 .top-dest-item div{
@@ -163,6 +163,23 @@
 .dest-cont-mini span{
     color: var(--sea);
     font-weight: 600;
+}
+
+@media (max-width: 1100px){
+
+    .top-dest-title{
+        font-size: 45px !important;
+        line-height: 55px !important;
+    }
+
+}
+@media (max-width: 920px){
+
+    .top-dest-title{
+        font-size: 40px !important;
+        line-height: 55px !important;
+    }
+
 }
 /* End Top Destination  */
 
