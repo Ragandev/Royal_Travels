@@ -1,0 +1,60 @@
+.review-con{
+    width:450px;
+    height:350px;
+    border-radius:20px;
+    background-color: azure;
+    color:black;
+    margin-left: 40px;
+    padding:40px;
+}
+.review-img{
+    border-radius: 70px;
+    width:100px;
+    height:100px;
+    padding-right: 10px;
+}
+.review-pro{
+    position: relative;
+    top:25px;
+    left:40px;
+    font-family:'cambria', sans-serif;
+    font-size: 18px;
+}
+.review-pro p{
+    line-height: normal;
+}
+.design-text{
+    font-family: 'Fasthand', cursive;
+    font-size: 60px;
+    color: var(--main);
+    position:relative;
+    left:100px;
+}
+.review{
+    position:relative;
+    top:50px;
+    align-content:center;
+}
+.about-bd{
+    font-family: 'Poppins';
+    font-size: 45px;
+    font-weight:700;
+    position:relative;
+    left:100px;
+}
+.review{
+    /* background-image: url(""); */
+    background-color: var(--sea);
+    padding:100px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.review-cursive{
+    color: var(--cyprus);
+}
+
+.review-bold{
+    color: #fff;
+}
+

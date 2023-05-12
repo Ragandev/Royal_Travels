@@ -1,0 +1,52 @@
+.about-box{
+    padding: 50px 100px;
+}
+
+
+.about-box .right-abt{
+    position: relative;
+}
+.counter{
+    height: 150px;
+    width: 150px;
+    border-radius:50%;
+    background-color: var(--crush);
+    position: absolute;
+    display: flex;
+    justify-content: center;align-items: center;
+    text-align: center;
+    color: var(--ripple);
+    bottom: 0;
+    left: 60px;
+}
+.counter p{
+    margin-top: 15px;
+    font-weight: 600;
+}
+.counter p span{
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.about-para{
+    margin-bottom: 50px;
+}
+
+.con-box {
+    padding: 20px 0;
+    box-shadow: 0 0 10px lightgrey;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+
+.con-box:hover {
+    box-shadow: 0 0 20px lightgrey;
+}
+
+.con-box img{
+    scale: 0.8;
+}
+
+.con-box .title{
+    font-weight: 600;
+}

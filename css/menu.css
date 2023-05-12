@@ -1,0 +1,100 @@
+@import url("/css/main.css");
+.mainnav{
+    background-color: #ffffff;
+    font-weight: 500;
+    font-size:16px;
+}
+.mainnav .navbar-brand{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.mainnav .nav-item{
+    margin-left: 30px;
+}
+.mainnav .navbar-nav{
+    margin-left: 30px;
+}
+.mainnav .nav-link span{
+    font-size: 40px;
+    color: var(--sea);
+}
+.menu-right{
+    margin-top: 28px;
+    font-weight: 500;
+    font-size:18px;
+    margin-right: 20px;
+}
+
+.menu-right a{
+    text-decoration: none;
+}
+
+.menu-right ul{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-right li{
+    list-style: none;
+}
+
+.mainnav a{
+    color: var(--cyprus);
+}
+
+.mainnav a:hover{
+    color: var(--crush);
+}
+.top-head{
+    display: none;
+}
+@media (max-width:750px)
+{
+    .top-head{
+        display: block;
+        text-align: center;
+    }
+    .top-icon{
+        padding:10px;
+    }
+    .menu-right{
+        display:none;
+    }
+}
+
+
+
+
+
+<div class="container pb-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="sec-main-title">Gallery</h2>
+
+                <div class="j-mixitup">
+                    <div class="mb-3 text-center">
+                        <button type="button" class="btn btn-primary mixitup-control" data-filter="all">All</button>
+
+                        <?php foreach ($photos as $item): ?>
+                        <button type="button" class="btn btn-primary mixitup-control" data-filter=".j-item-<?= $item['id'] ?>">
+                            <?= hentities($item['title']) ?>
+                        </button>
+                        <?php endforeach; ?>
+                    </div>
+            
+                    <div class="form-row">
+                        <?php foreach ($photos as $item): ?>
+                        <?php foreach ($item['images'] as $v): ?>
+                        <div class="col-sm-6 col-md-4 mixitup-item mb-2 j-item-<?= $item['id'] ?>">
+                            <img class="img-fluid" src="images/photos/thumb/<?= $v ?>" alt>
+                        </div>
+                        <?php endforeach; ?>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+

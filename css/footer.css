@@ -1,0 +1,32 @@
+.footer{
+    padding: 100px 100px 10px 100px;
+}
+.footer-headings{
+    font-weight: 600;
+    color: var(--sea);
+}
+.footer ul{
+    margin-left: -30px;
+}
+.footer li{
+    list-style-type: none;
+    line-height: 40px;
+}
+.footer-address p span{
+    font-size: 18px;
+    font-weight: 400;
+     color: var(--crush);
+}
+.footer a{
+    text-decoration: none;
+    color: var(--cyprus);
+}
+.footer a:hover{
+    color: var(--crush);
+}
+a{
+    color: var(--crush);
+}
+a:hover{
+    color: var(--sea);
+}

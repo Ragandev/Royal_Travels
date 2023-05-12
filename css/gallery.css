@@ -1,0 +1,9 @@
+.gal-box{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.gal-item{
+    padding: 10px;
+    min-height: 250px;
+    max-height: 250px;
+}

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --sea: #1aa6b7;
+  --crush: #fe424d;
+  --cyprus: #022d41;
+  --ripple: #daecf3;
+  --blueG: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+  --instaG: linear-gradient(to right top, #ae00a6, #e1007f, #f93057, #fa6833, #eb9612);
+  --youG: linear-gradient(to right top, #ff0000, #ef0000, #df0000, #cf0000, #c00000);
+  --whatG: linear-gradient(to right top, #22ff00, #1dd803, #18b304, #138f04, #0e6d04);
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  color: var(--cyprus);
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.page-header{
+  padding: 50px 0;
+  margin: 0 0 50px 0;
+  background-image: url(../images/city-coast.webp);
+  color:white;
+  text-align: center;
+}
+
+.cursive-text{
+  font-family: 'Fasthand', cursive;
+  color: var(--crush);
+  font-size: 35px;
+}
+
+.bold-title{
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  margin-bottom: 50px;
+}
+.small-title{
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.btn-sea{
+  background-color: var(--sea);
+  color: var(--ripple);
+}
+
+.btn-ripple{
+  background-color: var(--ripple);
+  color: var(--cyprus);
+}
+
+.btn-crush{
+  background-color: var(--crush) !important;
+  color: var(--ripple);
+}
+.btn-crush:hover{
+  background-color: transparent !important;
+  border: 2px solid var(--crush);
+  color: var(--crush)
+}
+
+.btn-cyprus{
+  background-color: var(--cyprus);
+  color: var(--ripple);
+}
+.btn-out-sea{
+  border: 1px solid var(--sea);
+  color: var(--sea);
+}
+.btn-out-sea:hover{
+  background-color: var(--sea);
+  color:white;
+
+}
+.btn-out-ripple{
+  border: 1px solid var(--ripple);
+  color: var(--ripple);
+}
+.btn-out-crush{
+  border: 1px solid var(--crush);
+  color: var(--crush);
+}
+.btn-out-cyprus{
+  border: 1px solid var(--cyprus);
+  color: var(--cyprus);
+}
+.btns{
+  display: block;
+  width: fit-content;
+  padding:10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+}
+.i-crush{
+  color:var(--crush) !important;
+}
+input:focus, textarea:focus{
+  outline: none !important;
+  box-shadow: none !important;
+  border: 2px solid var(--crush) !important;
+}
+a{
+  color: var(--crush);
+}
+a:hover{
+  color: var(--sea);
+}
+
