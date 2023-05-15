@@ -9,6 +9,12 @@
     position: relative;
 }
 
+ @media (max-width: 1270px) {
+    .head-banner h2{
+        font-size: 70px !important;
+    }
+ }
+
 .box-right{
     background-image: url("/images/yellowgirl.jpg");
     background-repeat: no-repeat;
