@@ -16,6 +16,7 @@ body{
   color: var(--cyprus);
   scroll-behavior: smooth;
   overflow-x: hidden;
+  border: 1;
 }
 
 .page-header{
