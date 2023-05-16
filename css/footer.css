@@ -30,3 +30,9 @@ a{
 a:hover{
     color: var(--sea);
 }
+
+@media (max-width:900px){
+    .footer{
+        padding : 10px;
+    }    
+}
