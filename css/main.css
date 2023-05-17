@@ -16,7 +16,7 @@ body{
   color: var(--cyprus);
   scroll-behavior: smooth;
   overflow-x: hidden;
-  border: 1;
+  border: 1px solid red;
 }
 
 .page-header{
@@ -35,8 +35,8 @@ body{
 
 .bold-title{
   font-weight: 700;
-  font-size: 60px;
-  line-height: 70px;
+  font-size: 50px;
+  line-height: 80px;
   margin-bottom: 50px;
 }
 @media (max-width: 760px){
