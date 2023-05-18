@@ -1,7 +1,6 @@
 .about-box{
-    padding: 50px 100px;
+    padding: 10px;
 }
-
 
 .about-box .right-abt{
     position: relative;
@@ -29,17 +28,29 @@
 }
 
 .about-para{
-    margin-bottom: 50px;
+    /* margin-bottom: 20px;
+    margin-left:10px; */
+    padding: 5px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .con-box {
-    padding: 20px 0;
-    box-shadow: 0 0 10px lightgrey;
+    padding: 20px;
     margin-bottom: 15px;
-    border-radius: 20px;
+}
+.con-box .row{
+    padding: 10px 2px;
+    min-height: 260px;
+    /* max-height: 200px; */
+    /* overflow: hidden; */
+    box-shadow: 0 0 10px lightgrey;
+    border-radius: 10px;
 }
 
-.con-box:hover {
+.con-box .row:hover {
     box-shadow: 0 0 20px lightgrey;
 }
 
@@ -49,4 +60,17 @@
 
 .con-box .title{
     font-weight: 600;
+}
+
+@media (max-width:576px){
+    .ab-img{
+        display:none;
+    }
+    .counter{
+        width:100px;
+        height:100px;
+    }
+    .counter p{
+        font-size: 10px;
+    }
 }

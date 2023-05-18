@@ -1,3 +1,4 @@
+@import url(/css/main.css);
 /* Head BAnner  */
 
 .navbar-brand img{
@@ -9,11 +10,10 @@
     position: relative;
 }
 
- @media (max-width: 1270px) {
-    .head-banner h2{
-        font-size: 70px !important;
-    }
- }
+.head-banner h2{
+    width:50%;      
+} 
+
 
 .box-right{
     background-image: url("/images/yellowgirl.jpg");
@@ -25,6 +25,28 @@
     background-color: var(--ripple);
     background-size: cover;    
 }
+@media (max-width:991px){
+    .box-left{
+        background: none;
+        text-align: center;
+    }
+    .head-banner h2{
+        font-size: 30px !important;  
+        width:80%;    
+        margin: 0 auto;
+        line-height: 45px;
+        color:white;
+    } 
+    .slide-btn{
+        margin: 0 auto;
+    }  
+}
+
+@media (max-width: 1270px) {
+    .head-banner h2{
+        font-size: 50px;   
+    }
+ }
 
 .intro-box{
     position: absolute;
