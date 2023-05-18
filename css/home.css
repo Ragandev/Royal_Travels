@@ -29,14 +29,20 @@
     .box-left{
         background: none;
         text-align: center;
+        min-height: 25vh;
+    }
+    .box-right{
+        min-height: 60vh;
     }
     .head-banner h2{
         font-size: 30px !important;  
         width:80%;    
         margin: 0 auto;
         line-height: 45px;
-        color:white;
-    } 
+    }
+    .intro-box{
+        position: static !important;
+    }
     .slide-btn{
         margin: 0 auto;
     }  
@@ -209,6 +215,11 @@
     }
 
 }
+@media (max-width: 480px){
+    .top-dest{
+        padding: 250px 20px;
+    }
+}
 /* End Top Destination  */
 
 /* Go top */
@@ -276,6 +287,11 @@
 }
 .pkg-title{
     margin-top: 20px;
+}
+@media (max-width: 480px){
+    .pkg-sec{
+        padding: 20px 20px;
+    }
 }
 /* End Pkg Section */
 
