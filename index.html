@@ -8,9 +8,9 @@
 
     <!-- Animate CSS -->
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
     <!-- Bootstrap  -->
     <link
@@ -38,23 +38,29 @@
     <link rel="stylesheet" href="css/home-about.css" />
   </head>
   <body>
+    <!-- Head Top -->
     <section class="top-head">
-          <a class="top-icon" href="tel:9123555804"
-                ><i class="fa-solid fa-phone fa-beat fa-xs i-crush"></i> 9123 654 786</a
-              >
-          <a class="top-icon" href="mailto: covaitravel@gmail.com"
-                ><i class="fa-solid fa-envelope fa-beat fa-xs i-crush"></i>
-                covaitravel@gmail.com</a>
+      <a class="top-icon" href="tel:9123555804"
+        ><i class="fa-solid fa-phone fa-beat fa-xs i-crush"></i> 9123 654 786</a
+      >
+      <a class="top-icon" href="mailto: covaitravel@gmail.com"
+        ><i class="fa-solid fa-envelope fa-beat fa-xs i-crush"></i>
+        covaitravel@gmail.com</a
+      >
     </section>
+    <!-- End Head Top -->
+
+    <!-- NavBar -->
+
     <nav id="navbar" class="navbar navbar-expand-lg mainnav">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
           <img src="/images/royal-dark-logo.png" width="200px" height="100px" />
         </a>
-        <button class="navbar-toggler">
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse navspace">
+        <div id="nav" class="collapse navbar-collapse navspace">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="">Home </a>
@@ -76,23 +82,29 @@
         <div class="menu-right">
           <ul>
             <li>
-              <a href="tel:9123555804"><i class="fa-solid fa-phone fa-beat fa-xs i-crush"></i> 9123 654 786</a>
+              <a href="tel:9123555804"
+                ><i class="fa-solid fa-phone fa-beat fa-xs i-crush"></i> 9123
+                654 786</a
+              >
             </li>
             <li>
               <a href="mailto: covaitravel@gmail.com"
                 ><i class="fa-solid fa-envelope fa-beat fa-xs i-crush"></i>
-                covaitravel@gmail.com</a>
+                covaitravel@gmail.com</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
+    <!-- End Nav Bar -->
+
     <!-- head-banner section  -->
 
     <section class="head-banner">
       <div class="row">
-        <div class=" col-12 col-sm-12 col-lg-3 box-left">
+        <div class="col-12 col-sm-12 col-lg-3 box-left">
           <div class="intro-box">
             <p class="cursive-text">Natural Beauty</p>
             <h2 class="bold-title">
@@ -112,9 +124,7 @@
     <!-- Top Destination  -->
     <section class="top-dest">
       <div class="container-fluid">
-        <div
-          class="row top-text mb-5"
-        >
+        <div class="row top-text mb-5">
           <div class="col-xxl-9 col-xl-9 col-lg-8 col-md-8">
             <p class="cursive-text top-dest-sub">Plan Your Trips</p>
             <h2 class="top-dest-title bold-title">
@@ -123,7 +133,10 @@
             </h2>
           </div>
           <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 my-auto">
-            <a class="btns btn-out-sea" href="">Browse Categories <i class="i-crush fa-solid fa-arrow-right fa-beat fa-xs"></i></a>
+            <a class="btns btn-out-sea" href=""
+              >Browse Categories
+              <i class="i-crush fa-solid fa-arrow-right fa-beat fa-xs"></i
+            ></a>
           </div>
         </div>
         <div
@@ -176,180 +189,225 @@
     </section>
     <!-- End Top Destination  -->
 
-<!-- About Section -->
+    <!-- About Section -->
 
-<div class="container-fluid about-box">
-  <div class="row justify-content-center align-items-center">
-    <div class="col-lg-6 col-md-6 right-abt">
-      <div class="counter animate__animated animate__swing animate__slow animate__infinite">
-        <p>
-          <span>125+</span><br />
-          Destinations
-        </p>
-      </div>
-      <img
-      class="img-fluid"
-      height="100%"
-      width="100%"
-        src="/images/travel2.png"
-      />
-    </div>
-    <div class="col-lg-6 col-md-6">
-      <div class="about-content">
-        <p class="cursive-text">Make it memorable</p>
-        <p class="bold-title">
-          We create the <br />
-          trips you love
-        </p>
-        <p class="about-para">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde
-          doloribus quo cum asperiores totam est nihil voluptate cupiditate
-          suscipit. Quaerat quam quibusdam repellendus autem facilis unde
-          animi illo? Illo neque numquam provident laborum molestiae quam.
-        </p>
-      </div>         
-    </div>
-  </div>
-
-  <div class="row p-5 justify-content-around">
-    <!-- box 1  -->
-    <div class="col-xl-4 col-sm-12 con-box align-items-center">
+    <div class="container-fluid about-box">
       <div class="row justify-content-center align-items-center">
-        <div class="col-sm-4">
+        <div class="col-lg-6 col-md-6 right-abt">
+          <div
+            class="counter animate__animated animate__swing animate__slow animate__infinite"
+          >
+            <p>
+              <span>125+</span><br />
+              Destinations
+            </p>
+          </div>
           <img
-            class="ab-img img-fluid"
-            src="https://cdn-icons-png.flaticon.com/512/1452/1452378.png" width="90%"
+            class="img-fluid"
+            height="100%"
+            width="100%"
+            src="/images/travel2.png"
           />
         </div>
-        <div class="col-sm-8">
-          <p class="title">Best Tours</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptates dolore illo ipsam quae et porro ab tempore quaerat
-            nisi nemo.
-          </p>
+        <div class="col-lg-6 col-md-6">
+          <div class="about-content">
+            <p class="cursive-text">Make it memorable</p>
+            <p class="bold-title">
+              We create the <br />
+              trips you love
+            </p>
+            <p class="about-para">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde
+              doloribus quo cum asperiores totam est nihil voluptate cupiditate
+              suscipit. Quaerat quam quibusdam repellendus autem facilis unde
+              animi illo? Illo neque numquam provident laborum molestiae quam.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- box 2  -->
-    <div class="col-xl-4 col-sm-12 con-box align-items-center">
-      <div class="row justify-content-center align-items-center">
-        <div class="col-sm-4">
-          <img
-            class="ab-img img-fluid"
-            src="https://cdn-icons-png.flaticon.com/512/201/201623.png" width="90%"
-          />
-        </div>
-        <div class="col-sm-8">
-          <p class="title">Best Tours</p>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Voluptates, eligendi nobis. Commodi necessitatibus explicabo
-            tempore maxime culpa aspernatur
-          </p>
-        </div>
-      </div>
-    </div>
-    <!-- box 3  -->
-    <div class="col-xl-4 col-sm-12 con-box align-items-center">
-      <div class="row justify-content-center align-items-center">
-        <div class="col-sm-4">
-          <img
-            class="ab-img img-fluid"
-            src="https://cdn-icons-png.flaticon.com/512/4429/4429789.png" width="90%"
-          />
-        </div>
-        <div class="col-sm-8">
-          <p class="title">Best Tours</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-            veritatis tempora facere consectetur recusandae illo vitae
-            minima ullam commodi nostrum.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
-<!-- End About Section -->
+      <div class="row p-5 justify-content-around">
+        <!-- box 1  -->
+        <div class="col-xl-4 col-sm-12 con-box align-items-center">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-sm-4">
+              <img
+                class="ab-img img-fluid"
+                src="https://cdn-icons-png.flaticon.com/512/1452/1452378.png"
+                width="90%"
+              />
+            </div>
+            <div class="col-sm-8">
+              <p class="title">Best Tours</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptates dolore illo ipsam quae et porro ab tempore quaerat
+                nisi nemo.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- box 2  -->
+        <div class="col-xl-4 col-sm-12 con-box align-items-center">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-sm-4">
+              <img
+                class="ab-img img-fluid"
+                src="https://cdn-icons-png.flaticon.com/512/201/201623.png"
+                width="90%"
+              />
+            </div>
+            <div class="col-sm-8">
+              <p class="title">Best Tours</p>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptates, eligendi nobis. Commodi necessitatibus explicabo
+                tempore maxime culpa aspernatur
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- box 3  -->
+        <div class="col-xl-4 col-sm-12 con-box align-items-center">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-sm-4">
+              <img
+                class="ab-img img-fluid"
+                src="https://cdn-icons-png.flaticon.com/512/4429/4429789.png"
+                width="90%"
+              />
+            </div>
+            <div class="col-sm-8">
+              <p class="title">Best Tours</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                veritatis tempora facere consectetur recusandae illo vitae
+                minima ullam commodi nostrum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-<!---->
+    <!-- End About Section -->
+
+    <!-- Package -->
     <section class="pkg-sec container">
       <div class="row">
-        <div class="col-lg-4 pkg-box">
+        <div class="col-lg-4 pkg-box mb-5">
           <div class="pkg-img">
-            <img class="img-fluid" src="/images/ooty.webp" alt="">
+            <img class="img-fluid" src="/images/ooty.webp" alt="" />
           </div>
           <h3 class="pkg-title">OOTY</h3>
           <p class="pkg-days">3 Days / 5 Nights</p>
           <div class="pkg-body">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, quia aperiam vitae assumenda minima et, corrupti quibusdam illum saepe velit, nisi deleniti perspiciatis excepturi quod!</p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque,
+              quia aperiam vitae assumenda minima et, corrupti quibusdam illum
+              saepe velit, nisi deleniti perspiciatis excepturi quod!
+            </p>
             <button class="btn btn-crush">Know More</button>
           </div>
         </div>
-        <div class="col-lg-4 pkg-box">
+        <div class="col-lg-4 pkg-box mb-5">
           <div class="pkg-img">
-            <img class="img-fluid" src="/images/munnar.webp" alt="">
+            <img class="img-fluid" src="/images/munnar.webp" alt="" />
           </div>
           <h3 class="pkg-title">KODAIKANAL</h3>
           <p class="pkg-days">3 Days / 5 Nights</p>
           <div class="pkg-body">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, quia aperiam vitae assumenda minima et, corrupti quibusdam illum saepe velit, nisi deleniti perspiciatis excepturi quod!</p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque,
+              quia aperiam vitae assumenda minima et, corrupti quibusdam illum
+              saepe velit, nisi deleniti perspiciatis excepturi quod!
+            </p>
             <button class="btn btn-crush">Know More</button>
           </div>
         </div>
-        <div class="col-lg-4 pkg-box">
+        <div class="col-lg-4 pkg-box mb-5">
           <div class="pkg-img">
-            <img class="img-fluid" src="/images/mudumalai.webp" alt="">
+            <img class="img-fluid" src="/images/mudumalai.webp" alt="" />
           </div>
           <h3 class="pkg-title">Mudumalai</h3>
           <p class="pkg-days">3 Days / 5 Nights</p>
           <div class="pkg-body">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, quia aperiam vitae assumenda minima et, corrupti quibusdam illum saepe velit, nisi deleniti perspiciatis excepturi quod!</p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque,
+              quia aperiam vitae assumenda minima et, corrupti quibusdam illum
+              saepe velit, nisi deleniti perspiciatis excepturi quod!
+            </p>
             <button class="btn btn-crush">Know More</button>
           </div>
         </div>
       </div>
     </section>
 
-        <!-- Vehicle Section -->
+    <!-- Package End -->
+
+    <!-- Slider Section -->
 
     <div id="home-slide" class="carousel slide">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#home-slide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#home-slide" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#home-slide" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button
+          type="button"
+          data-bs-target="#home-slide"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#home-slide"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#home-slide"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="slide-box">
-            <img src="/images/1.png" alt="...">
+            <img class="img-fluid" src="/images/slide1.jpg" alt="..." />
           </div>
         </div>
         <div class="carousel-item">
           <div class="slide-box">
-            <img src="/images/2.png" alt="...">
+            <img class="img-fluid" src="/images/slide2.jpg" alt="..." />
           </div>
         </div>
         <div class="carousel-item">
           <div class="slide-box">
-            <img src="/images/3.png"  alt="...">
+            <img class="img-fluid" src="/images/slide3.jpg" alt="..." />
           </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#home-slide" data-bs-slide="prev">
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#home-slide"
+        data-bs-slide="prev"
+      >
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#home-slide" data-bs-slide="next">
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#home-slide"
+        data-bs-slide="next"
+      >
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
 
-    <!-- End Vehicle Section -->
-
+    <!-- End Slider Section -->
 
     <!-- Review Section -->
 
@@ -364,47 +422,49 @@
           </p>
         </div>
         <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6 mb-5">
-          <div class=" review-con">
+          <div class="review-con">
             <p class="star">⭐⭐⭐⭐⭐</p>
-          <q
-            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eum
-            dicta dolore natus officia voluptate nisi quae quas optio sit.</q
-          >
-          <hr />
-          <div class="row align-items-center">
-            <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-4">
-              <img
-                class="review-img img-fluid"
-                src="https://www.pngall.com/wp-content/uploads/5/Profile-Male-PNG.png"
-              />
+            <q
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+              eum dicta dolore natus officia voluptate nisi quae quas optio
+              sit.</q
+            >
+            <hr />
+            <div class="row align-items-center">
+              <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-4">
+                <img
+                  class="review-img img-fluid"
+                  src="https://www.pngall.com/wp-content/uploads/5/Profile-Male-PNG.png"
+                />
+              </div>
+              <div class="col-xxl-9 col-xl-8 col-md-8 review-pro">
+                <p>Catherine Bannatyne</p>
+                <p>New York, USA</p>
+              </div>
             </div>
-            <div class="col-xxl-9 col-xl-8 col-md-8 review-pro">
-              <p>Catherine Bannatyne</p>
-              <p>New York, USA</p>
-            </div>
-          </div>
           </div>
         </div>
         <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6">
           <div class="review-con">
             <p class="star">⭐⭐⭐⭐⭐</p>
-          <q
-            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eum
-            dicta dolore natus officia voluptate nisi quae quas optio sit.</q
-          >
-          <hr />
-          <div class="row align-items-center">
-            <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-4">
-              <img
-                class="review-img img-fluid"
-                src="https://www.pngall.com/wp-content/uploads/5/Profile-Male-PNG.png"
-              />
+            <q
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+              eum dicta dolore natus officia voluptate nisi quae quas optio
+              sit.</q
+            >
+            <hr />
+            <div class="row align-items-center">
+              <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-4">
+                <img
+                  class="review-img img-fluid"
+                  src="https://www.pngall.com/wp-content/uploads/5/Profile-Male-PNG.png"
+                />
+              </div>
+              <div class="col-xxl-9 col-xl-8 col-md-8 review-pro">
+                <p>Catherine Bannatyne</p>
+                <p>New York, USA</p>
+              </div>
             </div>
-            <div class="col-xxl-9 col-xl-8 col-md-8 review-pro">
-              <p>Catherine Bannatyne</p>
-              <p>New York, USA</p>
-            </div>
-          </div>
           </div>
         </div>
       </div>
@@ -483,6 +543,21 @@
         <span class="fa fa-arrow-alt-circle-up"></span>
       </a>
     </div>
+
+    <!-- JQuery JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Popper JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"
+      integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
     <!-- bootstrap  JS -->
     <script

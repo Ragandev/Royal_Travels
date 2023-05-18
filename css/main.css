@@ -17,8 +17,6 @@ body{
   scroll-behavior: smooth;
   overflow-x: hidden;
   border: 1px solid red;
-  width: 100vw;
-  overflow-x: hidden !important;
 }
 
 .page-header{
