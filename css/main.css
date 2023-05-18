@@ -16,7 +16,7 @@ body{
   color: var(--cyprus);
   scroll-behavior: smooth;
   overflow-x: hidden;
-  border: 1;
+  border: 1px solid red;
 }
 
 .page-header{
@@ -39,6 +39,7 @@ body{
   line-height: 70px;
   margin-bottom: 50px;
 }
+
 @media (max-width: 760px){
   .cursive-text,
   .bold-title{
@@ -48,11 +49,13 @@ body{
     font-size: 40px;
   }
 }
+
 @media (max-width: 575px){
   .bold-title{
     font-size: 25px !important;
   }
 }
+
 .small-title{
   font-weight: 700;
   font-size: 20px;
@@ -72,6 +75,7 @@ body{
   background-color: var(--crush) !important;
   color: var(--ripple);
 }
+
 .btn-crush:hover{
   background-color: transparent !important;
   border: 2px solid var(--crush);
@@ -82,10 +86,12 @@ body{
   background-color: var(--cyprus);
   color: var(--ripple);
 }
+
 .btn-out-sea{
   border: 1px solid var(--sea);
   color: var(--sea);
 }
+
 .btn-out-sea:hover{
   background-color: var(--sea);
   color:white;
@@ -95,14 +101,17 @@ body{
   border: 1px solid var(--ripple);
   color: var(--ripple);
 }
+
 .btn-out-crush{
   border: 1px solid var(--crush);
   color: var(--crush);
 }
+
 .btn-out-cyprus{
   border: 1px solid var(--cyprus);
   color: var(--cyprus);
 }
+
 .btns{
   display: block;
   width: fit-content;
@@ -111,20 +120,25 @@ body{
   font-weight: bold;
   border-radius: 8px;
 }
+
 .i-crush{
   color:var(--crush) !important;
 }
+
 input:focus, textarea:focus{
   outline: none !important;
   box-shadow: none !important;
   border: 2px solid var(--crush) !important;
 }
+
 a{
   color: var(--crush);
 }
+
 a:hover{
   color: var(--sea);
 }
+
 br{
   display: none;
 }
