@@ -25,11 +25,11 @@
       </p>
     </div>
     <div class="gal-box container">
-      <div class="gal-item" data-bs-toggle="modal" data-bs-target="#img-modal" ondblclick="modalBox()">
+      <div class="gal-item" data-bs-toggle="modal" data-bs-target="#img-modal">
         <img src="/images/city-coast.webp" alt="" class="gal-img img-fluid">
       </div>
       <div class="gal-item" data-bs-toggle="modal" data-bs-target="#img-modal">
-        <img src="/images/city-coast.webp" alt="" class="gal-img img-fluid">
+        <img src="/images/beach.jpeg" alt="" class="gal-img img-fluid">
       </div>
       <div class="gal-item" data-bs-toggle="modal" data-bs-target="#img-modal">
         <img src="/images/city-coast.webp" alt="" class="gal-img img-fluid">
@@ -81,7 +81,6 @@
       </div>
 
     </div>
-    <a class="btn-sea" href="/index.html">home</a>
   </section>
 
 
@@ -92,14 +91,36 @@
       <div class="modal-content">
 
         <div class="modal-body img-modal-body">
-          <img class="img-fluid" src="/images/city-coast.webp" alt="">
+          <img class="modal-img img-fluid" alt="">
         </div>
       </div>
     </div>
   </div>
 
+   <!-- JQuery JS -->
+   <script
+   src="https://code.jquery.com/jquery-3.7.0.min.js"
+   integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+   crossorigin="anonymous"
+ ></script>
+ 
   <script>
-    
+
+    // $(".gal-img").click(function() {
+    //    var src = $(this).attr("src");
+    //    var modal = $('.modal-img');
+    //    modal.attr("src", src);
+    // });
+
+    var img = document.querySelectorAll(".gal-img");
+    var modal = document.querySelector(".modal-img");
+    img.forEach( (imgSrc) => {
+        imgSrc.addEventListener("click", ()=>{
+          var curSrc = imgSrc.getAttribute('src');
+          modal.setAttribute("src", curSrc);
+        });
+    });
+
   </script>
 
 </body>
