@@ -5,6 +5,10 @@
   transform: scale(0.6);
 }
 
+*{
+  /* border: 1px solid red; */
+}
+
 @media (max-width: 991px) {
     #nav{
         background-color: var(--ripple);
@@ -216,9 +220,24 @@
     line-height: 55px !important;
   }
 }
+@media (max-width: 768px) {
+  .btn-out-sea{
+    margin: auto;
+  }
+}
 @media (max-width: 480px) {
   .top-dest {
-    padding: 250px 20px;
+    padding: 50px 20px;
+  }
+  .bold-title{
+    line-height: 40px !important;
+    margin-bottom: 10px !important;
+  }
+  .top-dest .cursive-text{
+    margin-top: 100px !important;
+  }
+  .cursive-text{
+    margin-top: 30px !important;
   }
 }
 /* End Top Destination  */

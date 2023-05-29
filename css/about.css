@@ -1,66 +1,82 @@
-.fea-cons{
-    background-image: url("/images/yellow-concrete-textured-background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding:40px;
-    
+.fea-cons {
+  background-image: url("/images/yellow-concrete-textured-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px;
 }
-.fea-con{
-    padding-bottom: 20px;
-    align-items: center;
+.fea-con {
+  padding-bottom: 20px;
+  align-items: center;
 }
-.feature i{
-   font-size: 30px;
-   background-color: aliceblue;
-   width:70px;
-   height:70px;
-   border-radius: 50%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-} 
-.feature i:hover{
-    background-color: var(--crush);
-    color:white;
+.feature i {
+  font-size: 30px;
+  background-color: aliceblue;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.social{
-    position:fixed;
-    right:10px;
-    top:200px;
-
+.feature i:hover {
+  background-color: var(--crush);
+  color: white;
 }
-.social div{
-    width:50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-bottom:5px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    color:azure;
-    font-size: 20px;
-    
+.social {
+  position: fixed;
+  right: 10px;
+  top: 200px;
 }
-.social div:hover i{
-    animation-name: social;  
-    animation-duration: 1s;
-    animation-iteration-count: infinite;   
+.social div {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: azure;
+  font-size: 20px;
 }
-@keyframes social { 
-    100%{
-        transform: rotate(360deg);
-    }
-}
-.s-media1{
-    background-image:var(--blueG);
-}
-.s-media2{
-    background-image:var(--instaG);
-}
-.s-media3{
-    background-image:var(--youG);
-}
-.s-media4{
-    background-image:var(--whatG);
+.social div:hover i {
+  animation-name: social;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
 }
 
+@media (max-width: 575px) {
+  .abt-cont {
+    margin-top: -40px;
+  }
+  .feature .feat-item{
+    text-align: center;
+  }
+  .icon-box {
+    width: fit-content !important;
+    margin: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .about-us{
+    text-align: center;
+  }
+}
+
+@keyframes social {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.s-media1 {
+  background-image: var(--blueG);
+}
+.s-media2 {
+  background-image: var(--instaG);
+}
+.s-media3 {
+  background-image: var(--youG);
+}
+.s-media4 {
+  background-image: var(--whatG);
+}

@@ -23,3 +23,11 @@
     color: #fff;
 }
 
+@media (max-width: 768px) {
+    .review-con{
+        text-align: center;
+    }
+    .review-img{
+        margin-bottom: 15px;
+    }
+  }
