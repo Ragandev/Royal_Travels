@@ -5,9 +5,7 @@
   transform: scale(0.6);
 }
 
-*{
-  /* border: 1px solid red; */
-}
+
 
 @media (max-width: 991px) {
     #nav{
