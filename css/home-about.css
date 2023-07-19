@@ -5,6 +5,10 @@
 .about-box .right-abt{
     position: relative;
 }
+.highlight{
+    height: 100%;
+    overflow: hidden;
+}
 .counter{
     height: 150px;
     width: 150px;

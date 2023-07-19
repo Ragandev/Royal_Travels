@@ -268,18 +268,21 @@
 
 .pkg-sec {
   padding: 100px 20px;
+  height: 100%;
+  overflow: hidden;
 }
-
+.main-home-pkg{
+  height: auto;
+  overflow: hidden;
+}
 .pkg-sec .row {
   justify-content: space-around;
   align-items: center;
 }
-
 .pkg-img {
   height: 300px;
   position: relative;
 }
-
 .pkg-img img {
     border-radius: 20px;
     height: 100%;
@@ -301,7 +304,6 @@
   top: 0;
   visibility: hidden;
 }
-
 .pkg-img:hover:after {
   visibility: visible;
 }
